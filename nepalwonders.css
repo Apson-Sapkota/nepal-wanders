@@ -1,0 +1,159 @@
+.back-image{
+    background:linear-gradient(rgba(0, 0, 0, 0.219),rgba(0, 0, 0, 0.267)), url("https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg");
+    background-size:100%;
+    height:100vh;
+   background-size:cover;
+    
+}
+
+
+.apson li{
+    padding:10px;
+    
+}
+.apson li a{
+    color:white;
+}
+
+/* //navbar------------------------------------------------------------------------------------------------------------------------------------- */
+
+nav .nav-link{
+    color:white;
+    
+}
+nav li{
+    padding:0px 15px;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color:white;
+}
+/* General nav-link styling */
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.nav-link.show,
+.nav-link.active {
+    color: white; /* Or any other color you prefer */
+}
+
+/* Dropdown toggle link styling */
+.nav-link.dropdown-toggle:hover,
+.nav-link.dropdown-toggle:active,
+.nav-link.dropdown-toggle:focus,
+.nav-link.dropdown-toggle.show,
+.nav-link.dropdown-toggle.active {
+    color: white; /* Or any other color you prefer */
+}
+
+button.navbar-toggler{
+    background:white;
+}
+
+/* //Accordion-------------------------------------------- */
+.nav-tabs .nav-link{
+    color:black;
+    font-size:20px;
+}
+.nav-tabs .nav-link.active{
+    font-weight: bold;
+}
+/* General styling for better readability */
+.nav-tabs .nav-link {
+    color: black;
+    font-size: 1.2rem; /* Using rem for responsive font size */
+    padding: 10px 15px;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column; /* Stack tabs vertically on mobile */
+    }
+
+    .nav-tabs .nav-item {
+        width: 100%; /* Make each tab take full width */
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 1rem; /* Slightly smaller font size for mobile */
+        text-align: center; /* Center-align text for better appearance */
+        padding: 8px 10px;
+    }
+
+    .tab-content {
+        padding: 15px; /* Add some padding to the content for better spacing */
+    }
+}
+
+.journey{
+    font-size: 52px;
+}
+.begins{
+    color:orange;
+}
+.a{
+    background-color:#F5F5F5;
+    
+}
+.b{
+    width:200px;
+    margin:auto;
+   
+    
+}
+.b button{
+    width:150px;
+    background:#5A564F;
+    color:white;
+}
+.b button:hover{
+    background:#5A564F;
+    color:white;
+}
+.z img{
+    height:230px;
+    object-fit: cover;
+   
+}
+.bg-body-tertiary{
+    background-color:none !important;
+}
+.e{
+    background:#F5F5F5;
+}
+/* .f{
+    background:url("https://www.usatoday.com/gcdn/authoring/authoring-images/2023/09/27/PAPP/70985395007-hindu-092723-b.jpg?crop=5183,2917,x0,y269");
+    object-fit:cover;
+    height:100vh;
+    background-size:cover;
+} */
+ 
+.g img{
+    background-size:cover;
+    height:400px;
+}
+.h{
+    background:#16161E;
+}
+.i{
+    list-style: none;
+}
+.line{
+    height:1px ;
+    background:white;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: transparent;
+   
+}
+.nav-tabs .nav-link{
+    border:none;
+}
+.nav-tabs{
+    border:none;
+}
